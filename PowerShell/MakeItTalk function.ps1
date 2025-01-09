@@ -1,3 +1,13 @@
+<#
+.SYNOPSIS
+    Make your computer talk
+.DESCRIPTION
+    Make your computer talk
+.PARAMETER thingToSay
+    The thing to say
+.PARAMETER gender
+    male or female
+#>
 function MakeItTalk 
 {[CmdletBinding()]
     Param
